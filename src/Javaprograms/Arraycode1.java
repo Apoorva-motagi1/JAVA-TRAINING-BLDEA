@@ -20,6 +20,9 @@ public class Arraycode1 {
         System.out.println("---------------");
         for(int i=0;i<cls;i++) {
         	System.out.println("inside the class"+(i+1));
+        	for(int j=0;j<stu;j++) {
+        		System.out.println("The marks of student" +(j+1) +"is:" +arr[i][j]);
+        	}
         }
 	}
 }
